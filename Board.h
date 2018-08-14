@@ -19,6 +19,7 @@ struct Point
 };
 
 
+// Class to represent the board structure and interface
 class Board {
 
 public:
@@ -39,9 +40,9 @@ private:
 
 
 private:
-	unsigned int m_size;
-	vector<vector<char>> m_structure;
-	WordValidator * m_validator;
-	bool m_GameOver;
-	bool m_IsBoardFull;
+	unsigned int m_size; // Board size
+	vector<vector<char>> m_structure; // Square to represent the board strucutre
+	WordValidator * m_validator; // Word validator interface
+	bool m_GameOver;	// Flag to check if game over
+	bool m_IsBoardFull;		// Flag to check if the board is full
 };

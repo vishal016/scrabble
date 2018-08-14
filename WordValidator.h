@@ -3,6 +3,7 @@
 
 using namespace std;
 
+// Interface to check whether word is a valid word in English dictionary
 class WordValidator
 {
 public:

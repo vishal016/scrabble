@@ -2,6 +2,7 @@
 #include "stdafx.h"
 #include "WordValidator.h"
 
+// A basic implementation of the word validator that checks only that the characters in the word are alphanumeric
 class MyWordValidator : public  WordValidator
 {
 public:
